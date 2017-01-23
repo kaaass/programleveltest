@@ -14,17 +14,17 @@ alert("Love in js.")
 
 C.
 ```Javascript
-with(window){alert(href);}
+with(window){alert(location);}
 ```
 
 D.
 ```Javascript
-alert(window.href+3);
+alert(window.location+3);
 ```
 
 E.
 ```Javascript
-var obj=Object.create(null, 'x', {value: 1,configurable: true}); delete obj.x;
+var obj=Object.create(null,{'x':{value:'i am x',configurable: true}}); delete obj.x;
 ```
 
 F.
